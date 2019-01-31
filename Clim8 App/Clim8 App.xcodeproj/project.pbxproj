@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0413E57121410EF800A90923 /* ChangeCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413E57021410EF800A90923 /* ChangeCityViewController.swift */; };
+		0413E5732141186E00A90923 /* KCFloatingActionButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0413E5722141186E00A90923 /* KCFloatingActionButton.framework */; };
+		0413E57621463D1800A90923 /* HRToast+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413E57521463D1800A90923 /* HRToast+UIView.swift */; };
+		0413E57B214640DC00A90923 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413E578214640DC00A90923 /* Reachability.swift */; };
+		0413E57C214640DC00A90923 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0413E57A214640DC00A90923 /* Info.plist */; };
+		046E42B62140FF9E00D66E82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E42B52140FF9E00D66E82 /* AppDelegate.swift */; };
+		046E42B82140FF9E00D66E82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E42B72140FF9E00D66E82 /* ViewController.swift */; };
+		046E42BB2140FF9E00D66E82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046E42B92140FF9E00D66E82 /* Main.storyboard */; };
+		046E42BE2140FF9E00D66E82 /* Clim8_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 046E42BC2140FF9E00D66E82 /* Clim8_App.xcdatamodeld */; };
+		046E42C02140FFA300D66E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046E42BF2140FFA300D66E82 /* Assets.xcassets */; };
+		046E42C32140FFA300D66E82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046E42C12140FFA300D66E82 /* LaunchScreen.storyboard */; };
+		046E42CE2140FFA300D66E82 /* Clim8_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E42CD2140FFA300D66E82 /* Clim8_AppTests.swift */; };
+		046E42D92140FFA300D66E82 /* Clim8_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E42D82140FFA300D66E82 /* Clim8_AppUITests.swift */; };
+		046E42E7214105C400D66E82 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E42E6214105C400D66E82 /* WeatherDataModel.swift */; };
+		046E42E92141064A00D66E82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046E42E82141064A00D66E82 /* Images.xcassets */; };
+		51E8DCBD440A9021191EA5E2 /* Pods_Clim8_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927A6CAEA1CC6C7663D06584 /* Pods_Clim8_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046E42CA2140FFA300D66E82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046E42AA2140FF9E00D66E82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046E42B12140FF9E00D66E82;
+			remoteInfo = "Clim8 App";
+		};
+		046E42D52140FFA300D66E82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046E42AA2140FF9E00D66E82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046E42B12140FF9E00D66E82;
+			remoteInfo = "Clim8 App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0413E57021410EF800A90923 /* ChangeCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCityViewController.swift; sourceTree = "<group>"; };
+		0413E5722141186E00A90923 /* KCFloatingActionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KCFloatingActionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0413E57521463D1800A90923 /* HRToast+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HRToast+UIView.swift"; sourceTree = "<group>"; };
+		0413E578214640DC00A90923 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		0413E579214640DC00A90923 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		0413E57A214640DC00A90923 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046E42B22140FF9E00D66E82 /* Clim8 App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clim8 App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046E42B52140FF9E00D66E82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		046E42B72140FF9E00D66E82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		046E42BA2140FF9E00D66E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046E42BD2140FF9E00D66E82 /* Clim8_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Clim8_App.xcdatamodel; sourceTree = "<group>"; };
+		046E42BF2140FFA300D66E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046E42C22140FFA300D66E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046E42C42140FFA300D66E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046E42C92140FFA300D66E82 /* Clim8 AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clim8 AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046E42CD2140FFA300D66E82 /* Clim8_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clim8_AppTests.swift; sourceTree = "<group>"; };
+		046E42CF2140FFA300D66E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046E42D42140FFA300D66E82 /* Clim8 AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clim8 AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046E42D82140FFA300D66E82 /* Clim8_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clim8_AppUITests.swift; sourceTree = "<group>"; };
+		046E42DA2140FFA300D66E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046E42E6214105C400D66E82 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
+		046E42E82141064A00D66E82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1433986F16D6EC7E351A0BF9 /* Pods-Clim8 App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clim8 App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clim8 App/Pods-Clim8 App.release.xcconfig"; sourceTree = "<group>"; };
+		927A6CAEA1CC6C7663D06584 /* Pods_Clim8_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clim8_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95E013FCE47C891CB8A7E97 /* Pods_Clim8_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clim8_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD6746772FD27622EE13492 /* Pods-Clim8 App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clim8 App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clim8 App/Pods-Clim8 App.debug.xcconfig"; sourceTree = "<group>"; };
+		F697C84788DEE531B742EB1A /* Pods_Clim8_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clim8_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046E42AF2140FF9E00D66E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0413E5732141186E00A90923 /* KCFloatingActionButton.framework in Frameworks */,
+				51E8DCBD440A9021191EA5E2 /* Pods_Clim8_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046E42C62140FFA300D66E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046E42D12140FFA300D66E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0413E57421463D1800A90923 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				0413E57521463D1800A90923 /* HRToast+UIView.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		0413E577214640DC00A90923 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0413E578214640DC00A90923 /* Reachability.swift */,
+				0413E579214640DC00A90923 /* Reachability.h */,
+				0413E57A214640DC00A90923 /* Info.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		046E42A92140FF9E00D66E82 = {
+			isa = PBXGroup;
+			children = (
+				046E42B42140FF9E00D66E82 /* Clim8 App */,
+				046E42CC2140FFA300D66E82 /* Clim8 AppTests */,
+				046E42D72140FFA300D66E82 /* Clim8 AppUITests */,
+				046E42B32140FF9E00D66E82 /* Products */,
+				B89F4B3898C3C0A7509FEE57 /* Pods */,
+				4010AAE39AF2B4296403471B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		046E42B32140FF9E00D66E82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046E42B22140FF9E00D66E82 /* Clim8 App.app */,
+				046E42C92140FFA300D66E82 /* Clim8 AppTests.xctest */,
+				046E42D42140FFA300D66E82 /* Clim8 AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046E42B42140FF9E00D66E82 /* Clim8 App */ = {
+			isa = PBXGroup;
+			children = (
+				046E42B52140FF9E00D66E82 /* AppDelegate.swift */,
+				046E42B72140FF9E00D66E82 /* ViewController.swift */,
+				046E42B92140FF9E00D66E82 /* Main.storyboard */,
+				0413E57021410EF800A90923 /* ChangeCityViewController.swift */,
+				046E42E6214105C400D66E82 /* WeatherDataModel.swift */,
+				046E42BF2140FFA300D66E82 /* Assets.xcassets */,
+				046E42C12140FFA300D66E82 /* LaunchScreen.storyboard */,
+				046E42E82141064A00D66E82 /* Images.xcassets */,
+				046E42C42140FFA300D66E82 /* Info.plist */,
+				046E42BC2140FF9E00D66E82 /* Clim8_App.xcdatamodeld */,
+				0413E577214640DC00A90923 /* Sources */,
+				0413E57421463D1800A90923 /* Toast */,
+			);
+			path = "Clim8 App";
+			sourceTree = "<group>";
+		};
+		046E42CC2140FFA300D66E82 /* Clim8 AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				046E42CD2140FFA300D66E82 /* Clim8_AppTests.swift */,
+				046E42CF2140FFA300D66E82 /* Info.plist */,
+			);
+			path = "Clim8 AppTests";
+			sourceTree = "<group>";
+		};
+		046E42D72140FFA300D66E82 /* Clim8 AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046E42D82140FFA300D66E82 /* Clim8_AppUITests.swift */,
+				046E42DA2140FFA300D66E82 /* Info.plist */,
+			);
+			path = "Clim8 AppUITests";
+			sourceTree = "<group>";
+		};
+		4010AAE39AF2B4296403471B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0413E5722141186E00A90923 /* KCFloatingActionButton.framework */,
+				927A6CAEA1CC6C7663D06584 /* Pods_Clim8_App.framework */,
+				A95E013FCE47C891CB8A7E97 /* Pods_Clim8_AppTests.framework */,
+				F697C84788DEE531B742EB1A /* Pods_Clim8_AppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B89F4B3898C3C0A7509FEE57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCD6746772FD27622EE13492 /* Pods-Clim8 App.debug.xcconfig */,
+				1433986F16D6EC7E351A0BF9 /* Pods-Clim8 App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046E42B12140FF9E00D66E82 /* Clim8 App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046E42DD2140FFA300D66E82 /* Build configuration list for PBXNativeTarget "Clim8 App" */;
+			buildPhases = (
+				D0D80B369F0E95C7735A8F10 /* [CP] Check Pods Manifest.lock */,
+				046E42AE2140FF9E00D66E82 /* Sources */,
+				046E42AF2140FF9E00D66E82 /* Frameworks */,
+				046E42B02140FF9E00D66E82 /* Resources */,
+				BCE72F1C3E960C55F952C69C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clim8 App";
+			productName = "Clim8 App";
+			productReference = 046E42B22140FF9E00D66E82 /* Clim8 App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046E42C82140FFA300D66E82 /* Clim8 AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046E42E02140FFA300D66E82 /* Build configuration list for PBXNativeTarget "Clim8 AppTests" */;
+			buildPhases = (
+				046E42C52140FFA300D66E82 /* Sources */,
+				046E42C62140FFA300D66E82 /* Frameworks */,
+				046E42C72140FFA300D66E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046E42CB2140FFA300D66E82 /* PBXTargetDependency */,
+			);
+			name = "Clim8 AppTests";
+			productName = "Clim8 AppTests";
+			productReference = 046E42C92140FFA300D66E82 /* Clim8 AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046E42D32140FFA300D66E82 /* Clim8 AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046E42E32140FFA300D66E82 /* Build configuration list for PBXNativeTarget "Clim8 AppUITests" */;
+			buildPhases = (
+				046E42D02140FFA300D66E82 /* Sources */,
+				046E42D12140FFA300D66E82 /* Frameworks */,
+				046E42D22140FFA300D66E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046E42D62140FFA300D66E82 /* PBXTargetDependency */,
+			);
+			name = "Clim8 AppUITests";
+			productName = "Clim8 AppUITests";
+			productReference = 046E42D42140FFA300D66E82 /* Clim8 AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046E42AA2140FF9E00D66E82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Mohammed Azeem Azeez";
+				TargetAttributes = {
+					046E42B12140FF9E00D66E82 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					046E42C82140FFA300D66E82 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 046E42B12140FF9E00D66E82;
+					};
+					046E42D32140FFA300D66E82 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 046E42B12140FF9E00D66E82;
+					};
+				};
+			};
+			buildConfigurationList = 046E42AD2140FF9E00D66E82 /* Build configuration list for PBXProject "Clim8 App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046E42A92140FF9E00D66E82;
+			productRefGroup = 046E42B32140FF9E00D66E82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046E42B12140FF9E00D66E82 /* Clim8 App */,
+				046E42C82140FFA300D66E82 /* Clim8 AppTests */,
+				046E42D32140FFA300D66E82 /* Clim8 AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046E42B02140FF9E00D66E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046E42C32140FFA300D66E82 /* LaunchScreen.storyboard in Resources */,
+				046E42E92141064A00D66E82 /* Images.xcassets in Resources */,
+				046E42C02140FFA300D66E82 /* Assets.xcassets in Resources */,
+				0413E57C214640DC00A90923 /* Info.plist in Resources */,
+				046E42BB2140FF9E00D66E82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046E42C72140FFA300D66E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046E42D22140FFA300D66E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BCE72F1C3E960C55F952C69C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Clim8 App/Pods-Clim8 App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/KCFloatingActionButton/KCFloatingActionButton.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KCFloatingActionButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Clim8 App/Pods-Clim8 App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0D80B369F0E95C7735A8F10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clim8 App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046E42AE2140FF9E00D66E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0413E57B214640DC00A90923 /* Reachability.swift in Sources */,
+				046E42BE2140FF9E00D66E82 /* Clim8_App.xcdatamodeld in Sources */,
+				046E42E7214105C400D66E82 /* WeatherDataModel.swift in Sources */,
+				0413E57621463D1800A90923 /* HRToast+UIView.swift in Sources */,
+				046E42B82140FF9E00D66E82 /* ViewController.swift in Sources */,
+				0413E57121410EF800A90923 /* ChangeCityViewController.swift in Sources */,
+				046E42B62140FF9E00D66E82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046E42C52140FFA300D66E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046E42CE2140FFA300D66E82 /* Clim8_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046E42D02140FFA300D66E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046E42D92140FFA300D66E82 /* Clim8_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046E42CB2140FFA300D66E82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046E42B12140FF9E00D66E82 /* Clim8 App */;
+			targetProxy = 046E42CA2140FFA300D66E82 /* PBXContainerItemProxy */;
+		};
+		046E42D62140FFA300D66E82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046E42B12140FF9E00D66E82 /* Clim8 App */;
+			targetProxy = 046E42D52140FFA300D66E82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046E42B92140FF9E00D66E82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046E42BA2140FF9E00D66E82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046E42C12140FFA300D66E82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046E42C22140FFA300D66E82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046E42DB2140FFA300D66E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		046E42DC2140FFA300D66E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046E42DE2140FFA300D66E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD6746772FD27622EE13492 /* Pods-Clim8 App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 873FNWTK3G;
+				INFOPLIST_FILE = "Clim8 App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fortissoftwaresolution.Clim8-App";
+				PRODUCT_MODULE_NAME = Clim8App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046E42DF2140FFA300D66E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1433986F16D6EC7E351A0BF9 /* Pods-Clim8 App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 873FNWTK3G;
+				INFOPLIST_FILE = "Clim8 App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fortissoftwaresolution.Clim8-App";
+				PRODUCT_MODULE_NAME = Clim8App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		046E42E12140FFA300D66E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 873FNWTK3G;
+				INFOPLIST_FILE = "Clim8 AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fortissoftwaresolution.Clim8-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clim8 App.app/Clim8 App";
+			};
+			name = Debug;
+		};
+		046E42E22140FFA300D66E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 873FNWTK3G;
+				INFOPLIST_FILE = "Clim8 AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fortissoftwaresolution.Clim8-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clim8 App.app/Clim8 App";
+			};
+			name = Release;
+		};
+		046E42E42140FFA300D66E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 873FNWTK3G;
+				INFOPLIST_FILE = "Clim8 AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fortissoftwaresolution.Clim8-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Clim8 App";
+			};
+			name = Debug;
+		};
+		046E42E52140FFA300D66E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 873FNWTK3G;
+				INFOPLIST_FILE = "Clim8 AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fortissoftwaresolution.Clim8-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Clim8 App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046E42AD2140FF9E00D66E82 /* Build configuration list for PBXProject "Clim8 App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046E42DB2140FFA300D66E82 /* Debug */,
+				046E42DC2140FFA300D66E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046E42DD2140FFA300D66E82 /* Build configuration list for PBXNativeTarget "Clim8 App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046E42DE2140FFA300D66E82 /* Debug */,
+				046E42DF2140FFA300D66E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046E42E02140FFA300D66E82 /* Build configuration list for PBXNativeTarget "Clim8 AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046E42E12140FFA300D66E82 /* Debug */,
+				046E42E22140FFA300D66E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046E42E32140FFA300D66E82 /* Build configuration list for PBXNativeTarget "Clim8 AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046E42E42140FFA300D66E82 /* Debug */,
+				046E42E52140FFA300D66E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		046E42BC2140FF9E00D66E82 /* Clim8_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				046E42BD2140FF9E00D66E82 /* Clim8_App.xcdatamodel */,
+			);
+			currentVersion = 046E42BD2140FF9E00D66E82 /* Clim8_App.xcdatamodel */;
+			path = Clim8_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 046E42AA2140FF9E00D66E82 /* Project object */;
+}
